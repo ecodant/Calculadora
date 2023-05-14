@@ -24,6 +24,14 @@ namespace Calculator_Git
         Console.WriteLine($"The operation with the two value is: {substract}");
     }
     
+     public void multiply_Calculator()
+    {
+        int mutiply;
+        int op1 = get_Itanger();
+        int op2 = get_Itanger();
+        mutiply = op1 * op2;
+        Console.WriteLine($"The operation with the two value is: {mutiply}");
+    }
         private int get_Itanger()
     {
         int user_Input;
