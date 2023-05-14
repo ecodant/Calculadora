@@ -14,6 +14,16 @@ namespace Calculator_Git
         sum = op1 + op2;
         Console.WriteLine($"The operation with the two value is: {sum}");
     }
+
+     public void substract_Calculator()
+    {
+        int substract;
+        int op1 = get_Itanger();
+        int op2 = get_Itanger();
+        substract = op1 - op2;
+        Console.WriteLine($"The operation with the two value is: {substract}");
+    }
+    
         private int get_Itanger()
     {
         int user_Input;
