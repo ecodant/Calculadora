@@ -32,6 +32,16 @@ namespace Calculator_Git
         mutiply = op1 * op2;
         Console.WriteLine($"The operation with the two value is: {mutiply}");
     }
+
+        public void divide_Calculator()
+        {
+        int divide;
+        int op1 = get_Itanger();
+        int op2 = get_Itanger();
+        divide = op1 / op2;
+        Console.WriteLine($"The operation with the two value is: {divide}");
+    }
+
         private int get_Itanger()
     {
         int user_Input;
